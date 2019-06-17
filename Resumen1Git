@@ -1,0 +1,73 @@
+CURSO COMLETO GIT
+https://www.youtube.com/watch?v=x3ybMcIOjp0&list=PLvimn1Ins-43-1sXQmGZPWLjNjPyGNi0R&index=2
+Instalacion
+https://openwebinars.net/blog/como-instalar-git-en-ubuntu/
+git --version
+
+--------------------------------------------------------------
+Sofware controlador de versiones (git)
+
+VENTAJAS
+Auditoria de codigo
+	Revision de que hizo cada quien
+Control de cambios
+	Volver a versiones anteriores
+Uso de etiquetas para vercionar
+	Determina las versiones a las que se desea volver
+
+git
+	Sistema de control de versiones
+git hub, Bitbuket, Gitlab
+	Red social que utiliza git para que podamos administrar nuestros projectos
+--------------------------------------------------------------
+
+
+COMANDOS EXTRA
+git --version
+git help
+git help [comando]
+---------------------------------------------------------------
+Video 3 - Primer Repositorio y Commit
+DATOS PERSONALES
+git config --global user.email 'amilcar@gmail.com'
+git config --global user.name 'Amilcar'
+
+VER DATOS PERSONALES CONFIGURADOS
+git config --global -l
+
+Para editar los datos anteriores solo ingresamos los mismos comandos de nuevo
+
+COMADOS BASICOS
+git init 							Creo la carpeta .git
+git add .							Agrego archivos 
+git status							Veo los archivos agregados
+git commit -m "Commit inicial"
+-m ---> para indicarle un mensaje descriptivo
+git diff 							Verificamos los cambios
+git checkout . --> Reverir los cambios
+git log --> Verlos commits
+
+---------------------------------------------------------------
+Video 4 - Stage y Logs
+
+Llevar el control de un solo archivo
+	git add [nombreArchivo]
+	git commit -m 'Descripcion'
+
+Agregar un archivo al STAGE
+	git add [nombreArchivo]
+
+Sacar un archivo del STAGE
+	git reset [nombreArchivo]
+	git reset [carpeta/*.css]
+	git reset [*.css]
+
+Agregar todos los archivos
+	git add .
+	git add -A
+	git add -all
+
+Cerrar los logs
+	q
+
+

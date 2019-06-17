@@ -1,0 +1,57 @@
+--------------------------------------------------------------
+Video 5 Git Alias
+
+--------------------------------------------------------------
+Video 6 Git MV/RM/Reset
+
+Modificar o corregir el nombre de un Commit
+	git commit --amend -m 'NuevaDescripcion'
+	
+Cambiar de nombre un archivo desde Git
+Eliminar un archivo desde Git
+
+--------------------------------------------------------------
+Video 7 gitignore
+https://github.com/github/gitignore
+
+--------------------------------------------------------------
+Video 8 Ramas y Uniones (Merge)
+
+Fast-forward (Merge)
+	Al detectar que no hay ningun cambio sobre nuestra rama principal, de forma
+	transparente puede hacer la union de la rama secundaria con la rama prinncipal.
+
+Ver ramas
+	git log --oneline --decorate --all --graph
+
+Crear una nueva rama
+	git branch [nombreRama]
+	git checkout -b [nombreRama] (Crear e ir a rama X)
+
+Cambiar de rama
+	git checkout [nombreRama]
+
+Unir la rama principal con la secundaria
+	Nos posicionamos en la rama principal
+	git merge [nombreRamaSecundaria] (la que queremos unir)
+
+Eliminar una rama
+	git branch -d [nombreRama]
+
+--------------------------------------------------------------
+Video 9 Merge con conflictos
+
+--------------------------------------------------------------
+Video 10 Etiquetas (tags)
+
+--------------------------------------------------------------
+Video 11 Github (git clone) 						(Important)
+
+--------------------------------------------------------------
+Video 12 
+
+--------------------------------------------------------------
+Video 13
+
+--------------------------------------------------------------
+Video 14 pull request								(Important)
